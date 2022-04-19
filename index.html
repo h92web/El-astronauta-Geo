@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Astronauta Geo</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/css.js"></script>
+    <script src="./js/juego.js"></script>
+</head>
+<body>  
+    <header>
+        <h1>El Astronauta Geo</h1>
+        <div id="comandos">
+            <ul>
+                <li>W Arriba</li>
+                <li>A Izquierda</li>
+                <li>S Abajo</li>
+                <li>D Derecha</li>
+                <li>Space Disparar</li>
+            </ul>
+        </div>
+        <div id='ficha'>
+            <ul>
+                <li>Vidas <span id='vidas'>0</span></li>
+                <li>Puntos <span id='puntos_sumados'>0</span></li>
+                <li>Metros <span id='metros_viajados'>0</span></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div id='juego'>
+            <a href="javascript:window.location.href=window.location.href" id="pantalla_refrescar">
+                    <h1>CLIC PARA VOLVER A JUGAR</h1>
+            </a>
+            <div id='pantalla_roja'>
+            </div>
+            <div id='iniciar'>
+                <h1>Pulsá ENTER para iniciar</h1>
+            </div>
+            <div id="nivel_actual">
+                <h1 id="texto_nivel"></h1>
+            </div>
+            <div id='Astronauta_Geo'>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <span>Creado con mucho ♥ por <a href='https://www.h92web.com.ar'>H92WEB</a></span>
+        <span>La música y sprites no son de mi autoría, esta es una demo para el portfolio.</span>
+    </footer>
+</body>
+</html>
